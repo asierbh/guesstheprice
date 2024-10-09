@@ -1,0 +1,55 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #0f172a;
+  color: #ffffff;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.product-card {
+  background-color: #1e293b;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.vs-text {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.button-higher {
+  background-color: #dc2626;
+}
+
+.button-lower {
+  background-color: #4f46e5;
+}
+
+.button-higher:hover {
+  background-color: #b91c1c;
+}
+
+.button-lower:hover {
+  background-color: #4338ca;
+}
